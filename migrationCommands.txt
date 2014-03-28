@@ -1,0 +1,8 @@
+enable-migrations -ContextTypeName HowManyPointsDb -MigrationsDirectory DataContext\HowManyPointsMigrations
+enable-migrations -ContextTypeName IdentityDb -MigrationsDirectory DataContext\IdentityMigrations
+
+add-Migration -ConfigurationTypeName HowManyPointsIsThat.Web.DataContext.IdentityMigrations.Configuration "InitialCreate"
+add-Migration -ConfigurationTypeName HowManyPointsIsThat.Web.DataContext.HowManyPointsMigrations.Configuration "InitialCreate"
+
+update-database -ConfigurationTypeName HowManyPointsIsThat.Web.DataContext.IdentityMigrations.Configuration
+update-database -ConfigurationTypeName HowManyPointsIsThat.Web.DataContext.HowManyPointsMigrations.Configuration 

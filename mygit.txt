@@ -1,0 +1,13 @@
+git
+
+ls
+cd ~/
+
+
+git --help
+touch readme.text
+git init
+git status
+git config --list
+git help config
+git clone https://github.com/ryonie/HowManyPontsIsThat
