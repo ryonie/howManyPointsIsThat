@@ -1,0 +1,114 @@
+﻿@model HowManyPointsIsThat.Entities.FoodItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FoodItem</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Brand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Brand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fiber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fiber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Calories)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Calories)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Protein)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Protein)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Points)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Points)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Carbohydrates)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carbohydrates)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServingWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServingWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServingQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServingQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServingUnit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServingUnit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ServingsPerContainer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServingsPerContainer)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FoodItemId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

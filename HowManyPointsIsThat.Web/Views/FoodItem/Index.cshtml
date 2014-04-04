@@ -1,0 +1,99 @@
+﻿@model IEnumerable<HowManyPointsIsThat.Entities.FoodItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Brand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fiber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Calories)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Protein)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Points)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Carbohydrates)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServingWeight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServingQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServingUnit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ServingsPerContainer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Brand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fiber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Calories)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Protein)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Points)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Carbohydrates)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServingWeight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServingQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServingUnit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServingsPerContainer)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FoodItemId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FoodItemId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FoodItemId })
+        </td>
+    </tr>
+}
+
+</table>

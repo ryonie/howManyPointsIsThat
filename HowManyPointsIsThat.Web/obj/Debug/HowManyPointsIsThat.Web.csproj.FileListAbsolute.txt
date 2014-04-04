@@ -108,3 +108,5 @@ C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowMany
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web\obj\Debug\HowManyPointsIsThat.Web.Migrations.initialCreate.resources
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web\obj\Debug\HowManyPointsIsThat.Web.csproj.GenerateResource.Cache

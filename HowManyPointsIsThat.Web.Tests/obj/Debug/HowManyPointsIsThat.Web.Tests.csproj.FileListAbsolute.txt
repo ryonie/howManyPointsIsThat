@@ -42,3 +42,5 @@ C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowMany
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web.Tests\obj\Debug\HowManyPointsIsThat.Web.Tests.csprojResolveAssemblyReference.cache
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web.Tests\obj\Debug\HowManyPointsIsThat.Web.Tests.dll
 C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web.Tests\obj\Debug\HowManyPointsIsThat.Web.Tests.pdb
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web.Tests\bin\Debug\HowManyPointsIsThat.Entities.dll
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Web.Tests\bin\Debug\HowManyPointsIsThat.Entities.pdb

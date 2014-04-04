@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using HowManyPointsIsThat.Entities;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
+
 
 namespace HowManyPointsIsThat.Web.Models
 {
@@ -9,8 +12,11 @@ namespace HowManyPointsIsThat.Web.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
-            : base("DefaultConnection")
+         public DbSet<FoodItem> FoodItems {get;set;}
+         public DbSet<ConsumedFood> ConsumedFoods { get; set; }
+
+         public ApplicationDbContext()
+             : base("DefaultConnection")
         {
         }
     }
