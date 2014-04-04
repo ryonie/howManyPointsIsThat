@@ -1,0 +1,5 @@
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Entities\bin\Debug\HowManyPointsIsThat.Entities.dll
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Entities\bin\Debug\HowManyPointsIsThat.Entities.pdb
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Entities\obj\Debug\HowManyPointsIsThat.Entities.csprojResolveAssemblyReference.cache
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Entities\obj\Debug\HowManyPointsIsThat.Entities.dll
+C:\Users\ryand\Documents\Visual Studio 2013\Projects\HowManyPointsIsThat\HowManyPointsIsThat.Entities\obj\Debug\HowManyPointsIsThat.Entities.pdb
