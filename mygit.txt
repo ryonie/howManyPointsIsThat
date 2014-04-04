@@ -11,3 +11,12 @@ git status
 git config --list
 git help config
 git clone https://github.com/ryonie/HowManyPontsIsThat
+
+
+new repository from existing files
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/ryonie/howManyPontsIsThat
+git push -u origin master
+
